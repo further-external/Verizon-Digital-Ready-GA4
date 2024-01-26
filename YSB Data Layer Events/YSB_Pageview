@@ -2,12 +2,12 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
 	'event':'pageview',
-      'environment' : 'qa', //qa or production
-      'gdpr_performance': 'true' , // true or false Analytics Tracking Check
-      'gdpr_marketing': 'true', // true or false Remarketing Pixel Tracking Check
-      'gdpr_support': 'true',  // true or false User Account Tracking Check
-      'url': 'https://www.yahoosmallbusiness.com/businessmaker/step1-5', // Set to virtual URL (including any query string)
-      'title': 'Business Maker - Name', // Set to Page Title
-      'user_id': '1aa6d45e-8b5f-11e5-92ec-0afae8e4524d' // Anonymized User Id when available
+	'environment' : 'qa', //qa or production
+	'gdpr_performance': 'true' , // true or false Analytics Tracking Check
+	'gdpr_marketing': 'true', // true or false Remarketing Pixel Tracking Check
+	'gdpr_support': 'true',  // true or false User Account Tracking Check
+	'url': 'https://www.yahoosmallbusiness.com/businessmaker/step1-5', // Set to virtual URL (including any query string)
+	'title': 'Business Maker - Name', // Set to Page Title
+	'user_id': '1aa6d45e-8b5f-11e5-92ec-0afae8e4524d' // Anonymized User Id when available
 	});
 </script>
