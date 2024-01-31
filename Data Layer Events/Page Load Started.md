@@ -15,8 +15,6 @@ dataLayer.push({
         "topics": "<topics>"
     },
     "page_data": {
-        "country": "<country>",
-        "language": "<language>",
         "page_referrer": "<page_referrer>",
         "page_title": "<page_title>"
     },
@@ -33,8 +31,6 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.profile_status|string|Sets whether profile is complete or incomplete|complete, incomplete|||||||
 |event_data.topics|string|All topics selected by the user or relevant to the current page, in a comma-separated format. Maximum of three topics, and topics should be recorded in alphabetical order. \(Otherwise Branding,Managing money,Website design and Managing money,Branding,Website design will be two different values\)|Branding,Managing money,Website design|||||||
-|page_data.country|string|The country associated with the current page.|US, CA, FR, UK|||||||
-|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
 |page_data.page_referrer|string|Tracks the previous page before page load or history change||||||||
 |page_data.page_title|string|The title of the page currently being viewed, generally available in &lt;title&gt;.||||||||
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
