@@ -1,16 +1,19 @@
-# User Signed In
+# View Event List
 
 ### 
 
 ## Javascript Code
 ```js
 window.dataLayer = window.dataLayer || [];
+dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "login",
-  "detailed_event": "User Signed In",
+  "event": "view_event_list",
+  "detailed_event": "View Event List",
+    "event_data": {
+        "calendar_event_title": "<calendar_event_title>"
+    },
     "user_data": {
-        "user_id": "<user_id>",
-        "user_login_state": "<user_login_state>"
+        "user_id": "<user_id>"
     }
 });
 ```
@@ -19,9 +22,9 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|event_data.calendar_event_title|string|Sets the name of the calendar\_event||||||||
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
-|user_data.user_login_state|string|Captures the current sign in status for the user \(i.e. signed\_out, signed\_in, unknown\).|logged in, logged out, guest|||||||
 
-## Attached Notes
 
-<p>Recorded when a user successfully completes sign-in</p>
+
+
