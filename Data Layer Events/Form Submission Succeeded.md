@@ -27,8 +27,6 @@ dataLayer.push({
 |event_data.profile_status|string|Sets whether profile is complete or incomplete|complete, incomplete|||||||
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
-## Attached Notes
 
-<p>Record Form Submission Succeeded when a user successfully submits a form (e.g, refund calculator form, Tell A Friend form).&nbsp;</p>
 
 
