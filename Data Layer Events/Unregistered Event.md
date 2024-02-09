@@ -1,4 +1,4 @@
-# Save Event
+# Unregistered Event
 
 ### 
 
@@ -7,8 +7,8 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "save_event",
-  "detailed_event": "Save Event",
+  "event": "unregister_event",
+  "detailed_event": "Unregistered Event",
     "event_data": {
         "calendar_event_title": "<calendar_event_title>"
     },
@@ -26,7 +26,5 @@ dataLayer.push({
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
 
-## Attached Notes
 
-<p>Record when an event was saved &nbsp;</p>
 

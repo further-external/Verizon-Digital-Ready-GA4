@@ -1,4 +1,4 @@
-# View Event List
+# Register Event
 
 ### 
 
@@ -7,8 +7,8 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "view_event_list",
-  "detailed_event": "View Event List",
+  "event": "register_event",
+  "detailed_event": "Register Event",
     "event_data": {
         "calendar_event_title": "<calendar_event_title>"
     },
@@ -25,8 +25,6 @@ dataLayer.push({
 |event_data.calendar_event_title|string|Sets the name of the calendar\_event||||||||
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
-## Attached Notes
 
-<p>Record View Event List when users view Digital Ready events in a list. &nbsp;</p>
 
 

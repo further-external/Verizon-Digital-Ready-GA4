@@ -31,6 +31,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record when a user clicks on a content tile or pill in the Digital Ready UX.&nbsp;</p>
-
-
+<p>Within the Info Hub, please limit the number of "topics" sent in the string to 3. There is a character limit of 100 characters, and we prefer this to be limited within the dataLayer.</p>
