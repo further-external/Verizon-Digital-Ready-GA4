@@ -17,4 +17,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record this once the page is fully loaded, and scripts and content are done loading.&nbsp;</p>
+<p>Record this once the page is fully loaded, and scripts and content are done loading.&nbsp;
+<br> There is a max length of 500 chars for the parameter values.</p></p>
