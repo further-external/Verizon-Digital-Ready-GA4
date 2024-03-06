@@ -29,5 +29,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record when a user hits notable milestones within a video's playback.
-<br> There is a max length of 500 chars for the parameter values.</p>
+<p>Record when a user hits notable milestones within a video's playback</p>
+<p>There is a max length of 500 chars for the parameter values.</p>
