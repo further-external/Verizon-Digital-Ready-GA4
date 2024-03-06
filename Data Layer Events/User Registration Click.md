@@ -27,6 +27,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>The user clicks on a CTA to start the registration process
-<br> There is a max length of 500 chars for the parameter values.</p>
-
+<p>The user clicks on a CTA to start the registration process</p>
