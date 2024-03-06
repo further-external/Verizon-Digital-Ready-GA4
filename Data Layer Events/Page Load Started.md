@@ -42,5 +42,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record Page Load Started when a new page begins to load - either when a page is initially loading, or when a new single-page app view starts to load.&nbsp;
-<br> There is a max length of 500 chars for the parameter values.</p></p>
+<p>Record Page Load Started when a new page begins to load - either when a page is initially loading, or when a new single-page app view starts to load.&nbsp;</p>
+<p>There is a max length of 500 chars for the parameter values.</p>

@@ -23,5 +23,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Recorded when an error is encountered during the registration process.
-<br> There is a max length of 500 chars for the parameter values.</p>
+<p>Recorded when an error is encountered during the registration process.</p>
+<p>There is a max length of 500 chars for the parameter values.</p>

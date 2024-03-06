@@ -24,5 +24,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Recorded when a user successfully signs out.
-<br> There is a max length of 500 chars for the parameter values.</p>
+<p>Recorded when a user successfully signs out</p>
+<p>There is a max length of 500 chars for the parameter values.</p>
