@@ -27,4 +27,4 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>*Should we fire both this + pageview during registration?</p>
+<p>There is a max length of 500 chars for the parameter values.</p></p>
