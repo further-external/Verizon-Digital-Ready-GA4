@@ -31,4 +31,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record this event when the user completes registration and views the registration confirmation page</p>
+<p>Record this event when the user completes registration and views the registration confirmation page.
+<br>There is a max length of 500 chars for the parameter values.</p></p>
