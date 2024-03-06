@@ -30,5 +30,3 @@ dataLayer.push({
 ## Attached Notes
 
 <p>There is a max length of 500 chars for the parameter values.</p>
-
-
