@@ -23,4 +23,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record this event when a user clicks on one of the topics on the homepage.</p>
+<p>Record this event when a user clicks on one of the topics on the homepage.
+<br> There is a max length of 500 chars for the parameter values.</p>
