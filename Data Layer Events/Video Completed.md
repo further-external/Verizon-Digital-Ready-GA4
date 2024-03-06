@@ -27,5 +27,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Record when a user finishes watching a video.
-<br> There is a max length of 500 chars for the parameter values.</p>
+<p>Record when a user finishes watching a video.</p>
+<p>There is a max length of 500 chars for the parameter values.</p>
