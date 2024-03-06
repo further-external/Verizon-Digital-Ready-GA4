@@ -28,5 +28,7 @@ dataLayer.push({
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
 
+## Attached Notes
 
+<p>There is a max length of 500 chars for the parameter values.</p>
 
