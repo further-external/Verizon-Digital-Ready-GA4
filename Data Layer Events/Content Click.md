@@ -31,5 +31,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Within the Info Hub, please limit the number of "topics" sent in the string to 3. There is a character limit of 100 characters, and we prefer this to be limited within the dataLayer.
-<br> There is a max length of 500 chars for the parameter values.</p>
+<p>Within the Info Hub, please limit the number of "topics" sent in the string to 3. There is a character limit of 100 characters, and we prefer this to be limited within the dataLayer.</p>
+<p>There is a max length of 500 chars for the parameter values.</p>
