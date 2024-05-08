@@ -10,7 +10,7 @@ dataLayer.push({
   "event": "course_complete",
   "detailed_event": "Course Complete",
     "event_data": {
-        "count_course_complete": <count_course_complete>,
+        "count_course_complete": <count_course_complete>, //this parameter will be captured via GTM tag.
         "course_id": "<course_id>",
         "course_title": "<course_title>",
         "learning_path_id": "<learning_path_id>",
