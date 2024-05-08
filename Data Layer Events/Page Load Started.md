@@ -38,7 +38,7 @@ dataLayer.push({
 |page_data.page_referrer|string|Tracks the previous page before page load or history change||||||||
 |page_data.page_title|string|The title of the page currently being viewed, generally available in &lt;title&gt;.||||||||
 |user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
-|user_data.user_login_state|string|Captures the current sign in status for the user.|logged in, logged out, guest|||||||
+|user_data.user_login_state|string|Captures the current sign in status for the user \(i.e. signed\_out, signed\_in, unknown\).|logged in, logged out, guest|||||||
 
 ## Attached Notes
 
