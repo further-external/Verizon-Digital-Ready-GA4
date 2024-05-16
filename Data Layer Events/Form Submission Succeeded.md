@@ -24,8 +24,10 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.name|string|Captures the human-friendly name of the form.|Payment Info, Mailing Address, Payment Address, Contact Us|||||||
-|event_data.profile_status|string|Sets whether profile is complete or incomplete|complete, incomplete|||||||
-|user_data.user_id|string|The hashed email of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
+|event_data.profile_status|string|When authenticated, set to whether profile is complete or incomplete. In guest experience, set to an empty value.|Use complete or incomplete|||||||
+|user_data.user_id|string|When authenticated: Set to the hashed email of the user currently logged in to the site. 
+
+When on guest experience: Set value to empty string when not authenticated.|Use hashed email and not plain-text email when authenticated. Set to empty when not authenticated.|||||||
 
 ## Attached Notes
 
