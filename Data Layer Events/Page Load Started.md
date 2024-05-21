@@ -34,10 +34,10 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.profile_status|string|When authenticated, set to whether profile is complete or incomplete. In guest experience, set to an empty value.|Use complete or incomplete|||||||
 |event_data.topics|string|All topics selected by the user or relevant to the current page, in a comma-separated format. Maximum of three topics, and topics should be recorded in alphabetical order. \(Otherwise Branding,Managing money,Website design and Managing money,Branding,Website design will be two different values\). For Learning Path events, set the value to the topic\(s\) that the Learning Path belongs to.|Branding,Managing money,Website design|||||||
-|page_data.country|string|The country associated with the current page.|US, CA, FR, UK|||||||
-|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
+|page_data.country|string|The country associated with the current page.|US|||||||
+|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en, es|||||||
 |page_data.page_location|string|The full URL that the visitor was on when the event took place.|https:\/\/digitalready.verizonwireless.com\/onboarding, https:\/\/dashboard-digitalready.verizonwireless.com\/, https:\/\/dashboard-digitalready.verizonwireless.com\/course-details\/course:5255225|||||||
-|page_data.page_referrer|string|Tracks the previous page before page load or history change of previous screen. Use full URL of previous page\/screen.|https:\/\/digitalready.verizonwireless.com\/onboarding or https:\/\/digitalready.verizonwireless.com\/grants|||||||
+|page_data.page_referrer|string|Tracks the previous page before page load or history change of previous screen. Use full URL of previous page\/screen. Ensure URL is carried through for when the url has a page path: \/onboarding; the value sometimes is wiped clear.|https:\/\/digitalready.verizonwireless.com\/onboarding or https:\/\/digitalready.verizonwireless.com\/grants|||||||
 |page_data.page_title|string|The title of the page currently being viewed, generally available in &lt;title&gt;.||||||||
 |user_data.user_id|string|When authenticated, set to the hashed email of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string.|Use hashed email and not plain-text email when authenticated. Set to empty when not authenticated.|||||||
 |user_data.user_login_state|string|Captures the current sign in status for the user.|logged in, logged out|||||||
