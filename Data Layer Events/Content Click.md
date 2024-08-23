@@ -30,6 +30,6 @@ dataLayer.push({
 |user_data.user_id|string|When authenticated, set to the hashed email of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string.|Use hashed email and not plain-text email when authenticated. Set to empty when not authenticated.|||||||
 
 ## Attached Notes
-
+<p>Additionally fire this event for CTA button click (e.g. "Go to section" button in the Course sections of a course overview).</p>
 <p>Within the Info Hub, please limit the number of "topics" sent in the string to 3. There is a character limit of 100 characters, and we prefer this to be limited within the dataLayer.</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
