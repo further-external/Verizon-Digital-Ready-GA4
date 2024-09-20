@@ -7,11 +7,11 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "detailed_event": "Grant Started",
-  "event": "grant_start",
-  "event_data": {
-    "name": "<name>",
-    "profile_status": "<profile_status>"
+    "event": "grant_start",
+    "detailed_event": "Grant Started",
+      "event_data": {
+        "name": "<name>",
+        "profile_status": "<profile_status>"
   },
   "user_data": {
     "user_id": "<user_id>"
