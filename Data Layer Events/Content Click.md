@@ -25,7 +25,7 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.link_text|string|Text of the link clicked|Article name, "Sign Up"|||||||
-|event_data.link_url|string|Captures the site destination of the navigation links used.|https:\/\/www.example.com|||||||
+|event_data.link_url|string|Captures the site destination of the navigation links used.|https:\/\/www.digitalready.verizonwireless.com, https:\/\/www.dashboard-digitalready.verizonwireless.com, etc|||||||
 |event_data.topics|string|All topics selected by the user or relevant to the current page, in a comma-separated format. Maximum of three topics, and topics should be recorded in alphabetical order. \(Otherwise Branding,Managing money,Website design and Managing money,Branding,Website design will be two different values\). For Learning Path events, set the value to the topic\(s\) that the Learning Path belongs to.|Branding,Managing money,Website design|||||||
 |user_data.user_id|string|When authenticated, set to the hashed email of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string.|Use hashed email and not plain-text email when authenticated. Set to empty when not authenticated.|||||||
 
