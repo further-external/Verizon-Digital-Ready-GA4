@@ -19,7 +19,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|page_data.language|string|The language of the current page, usually pulled from filter selection component (e.g., "Available in Spanish", "Available in Chinese", or "View all".)|en-us, es-es, zh-cn|||||||
+|page_data.language|string|The language of the current page, usually pulled from filter selection component (e.g., "Available in Spanish", "Available in Chinese", or "View all".)|en-US, es-ES, zh-CN|||||||
 
 
 
