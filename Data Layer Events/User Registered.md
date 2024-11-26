@@ -10,7 +10,7 @@ dataLayer.push({
   "event": "sign_up",
   "detailed_event": "User Registered",
     "event_data": {
-        "access_code": <access_code>,
+        "access_code": "<access_code>",
         "business_zip": "<business_zip>",
         "name": "<name>",
         "topics": "<topics>"
