@@ -1,5 +1,5 @@
 # Course Complete
-
+Fire this event after users have gone through the course and completed the modules (i.e., Intro Quiz, Video, & Knowledge Check).
 ### 
 
 ## Javascript Code
@@ -22,6 +22,8 @@ dataLayer.push({
     }
 });
 ```
+
+
 
 ## Variable Definitions
 
