@@ -21,7 +21,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.login_method|string|Records the system the user utilized to log in.|SSO,CIAM|||||||
+|event_data.login_method|string|Records the system the user utilized to log in.|SSO,Native|||||||
 |user_data.user_login_state|string|Captures the current sign in status for the user.|logged in, logged out|||||||
 
 ## Attached Notes
