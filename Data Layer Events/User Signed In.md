@@ -28,3 +28,4 @@ dataLayer.push({
 
 <p>Recorded when a user successfully completes sign-in</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
+<p>With the introduction of SSO, it's important to understand the differences in login experiences that users encounter when signing in to VSBDR.</p>
