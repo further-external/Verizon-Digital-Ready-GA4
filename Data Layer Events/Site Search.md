@@ -23,7 +23,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.search_term|string|This field captures the actual search query entered by the user. |Branding,Managing money,Website design, Business|||||||
 |event_data.search_location|string|The section of the site where this search occured |Course, Events|||||||
-|event_data.search_location|integer|The total number of results generated after a search is conducted.|1,5,10,20,0||||||
+|event_data.search_results|integer|The total number of results generated after a search is conducted.|1,5,10,20,0||||||
 
 ## Attached Notes
 
