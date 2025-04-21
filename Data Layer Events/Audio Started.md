@@ -21,7 +21,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.identifier|string|Captures the ID or file of audio content being listened to by a visitor.|https://mb.verizonwireless.com/content/dam/vsbdr/videos/Craftingyourfoundersstory.mp4|||||||
+|event_data.identifier|string|Captures the ID or file of the audio content being listened to by the visitor.|https://mb.verizonwireless.com/content/dam/vsbdr/videos/Craftingyourfoundersstory.mp4|||||||
 |event_data.audio_duration|integer|Captures the length of the audio file listened to by the visitor.|36, 67, 178, 600||||0|||
 |event_data.audio_title|string|Captures the Name of audio content listened to by a visitor.|Crafting your founder's story, How to build confidence as an entrepreneur |||||||
 
