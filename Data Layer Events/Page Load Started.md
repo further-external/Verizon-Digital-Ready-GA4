@@ -20,7 +20,7 @@ dataLayer.push({
         "language": "<language>",
         "page_location": "<page_location>",
         "page_referrer": "<page_referrer>",
-        "page_title": "<page_title>"
+        "page_title": "<page_title>",
         "content_category": "<content_category>"
     },
     "user_data": {
