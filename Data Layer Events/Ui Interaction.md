@@ -27,4 +27,5 @@ dataLayer.push({
 ## Attached Notes
 
 <p>Recorded when the user clicks a UI element on the page that doesn't navigate away from the current page (e.g., the "Learning" navigation element, which opens a dropdown menu without leaving the page).&nbsp;</p>
+<p> In the Networking section of the site, this event should trigger when a user clicks on a profile within the 'Spotlight on Success' area.</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
