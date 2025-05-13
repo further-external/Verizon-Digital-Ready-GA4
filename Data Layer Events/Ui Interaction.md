@@ -20,8 +20,8 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|event_data.identifier|string|Captures the name or ID of the ui element used.|act now, cancel, ok, 3456, 8765|||||||
-|event_data.interaction_name|string|Text of the UI element that keeps you on the current page when clicked.| "Learning" on the navigation header|||||||
+|event_data.identifier|string|Captures the name or ID of the ui element used.|act now, cancel, ok, 3456, 8765, SMB Spotlight Profile|||||||
+|event_data.interaction_name|string|Text of the UI element that keeps you on the current page when clicked.| "Learning" on the navigation header, On SMB spotlight when selecting a profile the mentor's name|||||||
 
 
 ## Attached Notes
