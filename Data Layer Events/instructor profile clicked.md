@@ -1,4 +1,4 @@
-# Notification Link Clicked
+# Instructor profile clicked
 
 ### 
 
