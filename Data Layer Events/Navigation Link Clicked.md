@@ -27,5 +27,5 @@ dataLayer.push({
 
 ## Attached Notes
 
-<p>Recorded when the user clicks a navigation link - in the navigation header, the homepage button, or the footer.&nbsp;</p>
+<p>Recorded when the user clicks a navigation link - in the navigation header, the homepage button, or the footer. This can encompass any link that navigates a user to a sub-section of the site such as the "meet the instructors" page. &nbsp;</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
