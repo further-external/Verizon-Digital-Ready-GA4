@@ -22,7 +22,7 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.identifier|string|Captures the ID of video content viewed by visitor.|YT456789, BC4567890, 876546789|||||||
-|event_data.video_duration|integer|Captures the length of the video viewed by the visitor.|36, 67, 178, 600||||0|||
+|event_data.video_duration|integer|Captures the length of the video file. For start events, this should be 0.|0||||0|||
 |event_data.video_title|string|Captures the Name of video content viewed by visitor.|Twitch\_FPS, Age of Empires, Halo|||||||
 
 ## Attached Notes
