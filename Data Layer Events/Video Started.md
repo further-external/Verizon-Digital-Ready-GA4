@@ -11,7 +11,7 @@ dataLayer.push({
   "detailed_event": "Video Started",
     "event_data": {
         "identifier": "<identifier>",
-        "video_duration": <video_duration>,
+        "video_duration": "<video_duration>",
         "video_title": "<video_title>",
         "video_type": "<video_type>"
     }
