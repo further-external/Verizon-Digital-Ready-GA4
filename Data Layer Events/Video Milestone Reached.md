@@ -11,9 +11,10 @@ dataLayer.push({
   "detailed_event": "Video Milestone Reached",
     "event_data": {
         "identifier": "<identifier>",
-        "video_duration": <video_duration>,
-        "video_milestones_reached": <video_milestones_reached>,
-        "video_title": "<video_title>"
+        "video_duration": "<video_duration>",
+        "video_milestones_reached": "<video_milestones_reached>",
+        "video_title": "<video_title>",
+        "video_type": "<video_type>"
     }
 });
 ```
@@ -26,6 +27,7 @@ dataLayer.push({
 |event_data.video_duration|integer|Captures the length of the video viewed by the visitor.|36, 67, 178, 600||||0|||
 |event_data.video_milestones_reached|integer|Count of video milestones reached \(25%, 50%, 75%\).||||||||
 |event_data.video_title|string|Captures the Name of video content viewed by visitor.|Twitch\_FPS, Age of Empires, Halo|||||||
+|event_data.video_type|string|Captures the Type of video content viewed by visitor. Used to distinguish videos that are previewed or watched within a course.|preview, full length|||||||
 
 ## Attached Notes
 
