@@ -13,7 +13,8 @@ dataLayer.push({
         "identifier": "<identifier>",
         "video_duration": "<video_duration>",
         "video_title": "<video_title>",
-        "video_type": "<video_type>"
+        "video_type": "<video_type>",
+        "video_tally": <video_tally>
     }
 });
 ```
@@ -26,6 +27,7 @@ dataLayer.push({
 |event_data.video_duration|integer|Captures the length of the video file. For start events, this should be 0.|0||||0|||
 |event_data.video_title|string|Captures the Name of video content viewed by visitor.|Twitch\_FPS, Age of Empires, Halo|||||||
 |event_data.video_type|string|Captures the Type of video content viewed by visitor. Used to distinguish videos that are previewed or watched within a course.|preview, full length|||||||
+|event_data.video_tally|integer|Captures the number of videos a user has viewed during their session.|1,2,5,10||||0|||
 
 ## Attached Notes
 
