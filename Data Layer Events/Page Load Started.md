@@ -11,7 +11,7 @@ dataLayer.push({
   "event": "page_load_started",
   "detailed_event": "Page Load Started",
     "event_data": {
-        "new_content_added": <new_content_added>,
+        "new_content_added": "<new_content_added>",
         "profile_status": "<profile_status>",
         "topics": "<topics>"
     },
@@ -21,6 +21,7 @@ dataLayer.push({
         "page_location": "<page_location>",
         "page_referrer": "<page_referrer>",
         "page_title": "<page_title>",
+        "content_name": "<content_name>",
         "content_category": "<content_category>"
     },
     "user_data": {
@@ -41,6 +42,7 @@ dataLayer.push({
 |page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, es-es, zh-cn|||||||
 |page_data.page_location|string|The full URL that the visitor was on when the event took place.|https:\/\/digitalready.verizonwireless.com\/onboarding, https:\/\/dashboard-digitalready.verizonwireless.com\/, https:\/\/dashboard-digitalready.verizonwireless.com\/course-details\/course:5255225|||||||
 |page_data.page_referrer|string|Tracks the previous page before page load or history change of previous screen. Use full URL of previous page\/screen. Ensure URL is carried through for when the url has a page path.\/onboarding; the value sometimes is wiped clear.|https:\/\/digitalready.verizonwireless.com\/onboarding or https:\/\/digitalready.verizonwireless.com\/grants|||||||
+|page_data.content_name|string| When available, this value will contain the name/title of the content currently being viewed on a page, usually the name of the course, the event/virtual event, learning path, or another value that is used to address the content on the page being viewed. | Defining your brand: Connecting to customers, Activate cutting-edge marketing strategies with the power of AI, Mastering social media marketing|||||||
 |page_data.content_category|string| When available, this value describes the type of page content the user is interacting with. For example Quick Tips, this can include Articles, Videos, and Audio pages . Similarly, Courses can be categorized as either full Courses or Mini Courses pages. These values will align with the "type" filter provided on content category pages. | Quicktips: Articles, Videos, Audio. Courses: Course, Mini Course|||||||
 |page_data.page_title|string|The title of the page currently being viewed, generally available in &lt;title&gt;.||||||||
 |user_data.user_id|string|When authenticated, set to the UUID of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string. <br><br> \(This is managed exclusively on VSBDR pages.\)|Use the UUID when a user is authenticated. Set to empty when not authenticated.|||||||
