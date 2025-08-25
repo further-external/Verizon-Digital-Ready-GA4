@@ -35,4 +35,5 @@ dataLayer.push({
 <p>Additionally fire this event for CTA button click (e.g. "Go to section" button in the Course sections of a course overview). </p>
 <p>Within the Info Hub, please limit the number of "topics" sent in the string to 3. There is a character limit of 100 characters, and we prefer this to be limited within the dataLayer.</p>
 <p>In the Networking section of the site, this event should trigger when a user clicks on a spotlighted user's top recommended courses or learning path.</p>
+<p>Within the Events section of the site, this event will be used when a user engages with the CTA objects in the new Events CX widget, including "Register", "Sign in", "Enroll", "Unenroll", "Find similar event", etc.
 <p>There is a max length of 500 chars for the parameter values.</p>
