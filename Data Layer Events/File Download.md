@@ -11,7 +11,8 @@ dataLayer.push({
   "detailed_event": "File Download",
     "event_data": {
         "name": "<name>",
-        "type": "<type>"
+        "type": "<type>",
+        "link_url": "<link_url>"
     },
     "user_data": {
         "user_id": "<user_id>"
@@ -25,6 +26,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.name|string|Captures the human-friendly name of the file.|course_12345_recap,event_12345_overview|||||||
 |event_data.type|string|Captures the type of file.|pdf, mov, docx, wav|||||||
+|event_data.link_url|string|Captures the site destination of the download links used.|https:\/\/www.digitalready.verizonwireless.com, https:\/\/www.dashboard-digitalready.verizonwireless.com, etc|||||||
 |user_data.user_id|string|When authenticated, set to the UUID of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string.|Use the UUID when a user is authenticated. Set to empty when not authenticated.|||||||
 
 ## Attached Notes
