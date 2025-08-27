@@ -32,4 +32,6 @@ dataLayer.push({
 ## Attached Notes
 
 <p>Record when a user clicks play to start watching a video</p>
+<p>When a video is uploaded and used in Adobe LMS: Data Pull From LMS</p>
+<p>When a video is  uploaded and used in Adobe AEM: Data Pull From Google Analytics 4</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
