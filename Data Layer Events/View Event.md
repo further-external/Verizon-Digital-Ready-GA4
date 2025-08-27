@@ -26,8 +26,4 @@ dataLayer.push({
 |user_data.user_id|string|When authenticated, set to the UUID of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string.|Use the UUID when a user is authenticated. Set to empty when not authenticated.|||||||
 
 ## Attached Notes
-<p>When a video is uploaded and used in Adobe LMS: Data Pull From LMS</p>
-<p>When a video is  uploaded and used in Adobe AEM: Data Pull From Google Analytics 4</p>
-
-
 <p>There is a max length of 500 chars for the parameter values.</p>
