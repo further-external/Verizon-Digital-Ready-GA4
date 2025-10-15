@@ -22,7 +22,10 @@ dataLayer.push({
         "page_referrer": "<page_referrer>",
         "page_title": "<page_title>",
         "content_name": "<content_name>",
-        "content_category": "<content_category>"
+        "content_category": "<content_category>",
+        "event_skill_level": "<event_skill_level>",
+        "event_admission_cost": "<event_admission_cost>"
+
     },
     "user_data": {
         "user_id": "<user_id>",
@@ -43,7 +46,9 @@ dataLayer.push({
 |page_data.page_location|string|The full URL that the visitor was on when the event took place.|https:\/\/digitalready.verizonwireless.com\/onboarding, https:\/\/dashboard-digitalready.verizonwireless.com\/, https:\/\/dashboard-digitalready.verizonwireless.com\/course-details\/course:5255225|||||||
 |page_data.page_referrer|string|Tracks the previous page before page load or history change of previous screen. Use full URL of previous page\/screen. Ensure URL is carried through for when the url has a page path.\/onboarding; the value sometimes is wiped clear.|https:\/\/digitalready.verizonwireless.com\/onboarding or https:\/\/digitalready.verizonwireless.com\/grants|||||||
 |page_data.content_name|string| When available, this value will contain the name/title of the content currently being viewed on a page, usually the name of the course, the event/virtual event, learning path, or another value that is used to address the content on the page being viewed. | Defining your brand: Connecting to customers, Activate cutting-edge marketing strategies with the power of AI, Mastering social media marketing|||||||
-|page_data.content_category|string| When available, this value describes the type of page content the user is interacting with. For example Quick Tips, this can include Articles, Videos, and Audio pages . Similarly, Courses can be categorized as either full Courses or Mini Courses pages. These values will align with the "type" filter provided on content category pages. | Quicktips: Articles, Videos, Audio. Courses: Course, Mini Course|||||||
+|page_data.content_category|string| When available, this value describes the type of page content the user is interacting with. For example Quick Tips, this can include Articles, Videos, and Audio pages . Similarly, Courses can be categorized as either full Courses or Mini Courses pages. For events, when a user visits an in-person event, we want this labeled as "events:in-person events," and for virtual events, labeled as "events:virtual event.". These values will align with the "type" filter provided on content category pages. | Quicktips: Articles, Videos, Audio. Courses: Course, Mini Course|||||||
+|page_data.event_skill_level|string|Sets the name of the event's skill level||||||||
+|page_data.event_admission_cost|string|Sets the cost to attend the event||||||||
 |page_data.page_title|string|The title of the page currently being viewed, generally available in &lt;title&gt;.||||||||
 |user_data.user_id|string|When authenticated, set to the UUID of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string. <br><br> \(This is managed exclusively on VSBDR pages.\)|Use the UUID when a user is authenticated. Set to empty when not authenticated.|||||||
 |user_data.user_login_state|string|Captures the current sign in status for the user.|logged in, logged out|||||||
