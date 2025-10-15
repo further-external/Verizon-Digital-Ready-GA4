@@ -29,4 +29,5 @@ dataLayer.push({
 <p>Recorded when the user clicks a UI element on the page that doesn't navigate away from the current page (e.g., the "Learning" navigation element, which opens a dropdown menu without leaving the page).&nbsp;</p>
 <p>On the redesigned course pages, the Course Information Bar elements are now selectable. This event should be triggered when a user interacts with any of these elements on a course page.</p>
 <p>In the Networking section of the site, this event should trigger when a user clicks on a profile within the 'Spotlight on Success' area.</p>
+<p>In the Events section of the site, this event should trigger when a user clicks on the "Learn about events" at the 'Virtual Events' or 'In-person Events' area.</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
