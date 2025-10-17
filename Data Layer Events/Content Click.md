@@ -39,4 +39,5 @@ dataLayer.push({
 <p> Include this on the “sign up for event” button on the in-person registration page. Also this will fire for the “find similar events" </p>
 <p> Add this event to the "view all in-person events" link.</p>
 <p> Add this event to the "more resources" page elements in the carousel. </p>
+<p> Add this event when the user navigates from Info Hub to In-person events via the "View all in-person events" link</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
