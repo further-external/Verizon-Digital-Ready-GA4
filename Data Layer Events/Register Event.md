@@ -32,5 +32,4 @@ dataLayer.push({
 |user_data.user_id|string|When authenticated, set to the UUID of the user currently logged in to the site. When on guest experience \(non-authenticated\), set value to empty string.|Use the UUID when a user is authenticated. Set to empty when not authenticated.|||||||
 
 ## Attached Notes
-<p>This should be added to the "sign up for event" button on in-person registration pages and the "enroll" button on virtual pages.</p>
 <p>There is a max length of 500 chars for the parameter values.</p>
